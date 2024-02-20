@@ -1,0 +1,308 @@
+/* -_-_-_-_-_-_-_- Elements -_-_-_-_-_-_-_- */
+body {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+address {
+    font-style: normal
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+
+/* -_-_-_-_-_-_-_- Class | Style -_-_-_-_-_-_-_- */
+
+.container {
+max-width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.logo {
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+
+display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 0px;
+margin-right: 76px;
+}
+
+.studio-span-header {
+color: #2e2f42;
+}
+
+.studio-span-footer {
+text-transform: uppercase;
+color: #f4f4fd;
+}
+
+.nav-links {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+
+padding: 24px 0;
+display: block;
+}
+
+.nav-links:focus,
+.nav-links:hover {
+color: #404bbf;
+}
+
+.contacts-links {
+font-family: "Roboto", sans-serif;
+color: #434455;
+
+}
+
+.contacts {
+    margin-left: auto;
+}
+
+.contacts-links:hover,
+.contacts-links:focus {
+color: #404bbf
+}
+
+.section-effective-solutions{
+    padding-bottom: 188px;
+    padding-top: 188px;
+background: #2e2f42;
+}
+
+.page-h {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+
+margin-right: auto;
+margin-left: auto;
+max-width: 496px;
+margin-bottom: 48px;
+}
+
+.button-h {
+color: #fff;
+background: #4d5ae5;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+
+border-radius: 4px;
+padding: 16px 32px;
+gap: 10px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+display: block;
+border: none;
+margin: auto;
+}
+
+.button-h:hover,
+.button-h:focus{
+background: #404bbf;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.portfolio-h {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: #2e2f42;
+letter-spacing: 0.02em;
+}
+
+.portfolio-desc {
+    letter-spacing: 0.02em;
+    visibility: hidden;
+}
+
+.portfolio-sub {
+color: #434455;
+}
+
+.section-our-team{
+background-color: #F4F4FD;
+padding-bottom: 120px;
+padding-top: 120px;
+}
+
+.container-our-team {
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 32px;
+
+
+}
+
+
+
+
+.our-team-h{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-transform: capitalize;
+text-align: center;
+letter-spacing: 0.02em;
+color: #2e2f42;
+
+padding-bottom: 72px;
+}
+
+.our-team-names {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: #2e2f42;
+
+padding-top: 32px;
+padding-bottom: 4px;
+}
+
+.our-team-block{
+background-color: #FFFFFF;
+border-radius: 0 0 4px 4px;
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.our-team-desc {
+text-align: center;
+color: #434455;
+
+padding-bottom: 32px;
+padding-top: 4px;
+}
+
+.our-portfolio-h {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-transform: capitalize;
+text-align: center;
+letter-spacing: 0.02em;
+color: #2e2f42;
+
+padding-bottom: 72px;
+}
+
+.our-portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+gap: 48px 24px; 
+
+}
+
+.our-portfolio-item {
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+gap: 8px;
+}
+
+.our-portfolio-title{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.our-portfolio-sub{
+color: #434455;
+}
+
+.footer-text {
+color: #f4f4fd;
+width: 264px;
+padding-top: 16px;
+}
+
+.footer-nav {
+background: #2e2f42;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
+.page-nav-ul {
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 40px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
+}
+
+.portfolio-list {
+    display: flex;
+
+}
+
+.portfolio-list li {
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 8px;
+
+}
+
