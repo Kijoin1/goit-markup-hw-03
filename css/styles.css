@@ -266,6 +266,11 @@ gap: 48px 24px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+
+    align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+gap: 8px;
 }
 
 /*.our-portfolio-item {
