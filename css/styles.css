@@ -251,6 +251,7 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 
 padding-bottom: 72px;
+margin-bottom: 72px;
 }
 
 .our-portfolio-list{
@@ -260,12 +261,19 @@ gap: 48px 24px;
 
 }
 
-.our-portfolio-item {
+.our-portfolio-item{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
+/*.our-portfolio-item {
 align-items: flex-start;
 justify-content: center;
 flex-direction: column;
 gap: 8px;
-}
+}*/
 
 .our-portfolio-title{
 font-weight: 500;
@@ -332,3 +340,4 @@ gap: 8px;
     display: inline-block;
     margin-bottom: 16px;
 }
+
