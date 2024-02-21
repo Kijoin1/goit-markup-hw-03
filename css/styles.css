@@ -45,7 +45,7 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.logo {
+.logo-page {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -61,6 +61,22 @@ flex-direction: row;
 gap: 0px;
 margin-right: 76px;
 }
+
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
+    }
 
 .studio-span-header {
 color: #2e2f42;
@@ -230,9 +246,6 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2e2f42;
-
-padding-top: 32px;
-padding-bottom: 4px;
 }
 
 .our-team-block{
@@ -244,9 +257,6 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 .our-team-desc {
 text-align: center;
 color: #434455;
-
-padding-bottom: 32px;
-padding-top: 4px;
 }
 
 .our-portfolio-h {
@@ -277,14 +287,7 @@ margin-bottom: 72px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
-/*.our-portfolio-item {
-align-items: flex-start;
-justify-content: center;
-flex-direction: column;
-gap: 8px;
-}*/
 
 .our-portfolio-title{
 font-weight: 500;
